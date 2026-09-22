@@ -8,7 +8,7 @@ public class Main {
         ProductoSimple gaseosa = new ProductoSimple("Gaseosa 500ml", 1800, 30);
         ProductoSimple postre = new ProductoSimple("Postre helado", 2200, 8);
 
-        System.out.println("== Productos simples ==");
+        System.out.println("-----Productos simples-----");
         System.out.println(hamburguesa);
         System.out.println(papas);
         System.out.println(gaseosa);
@@ -23,7 +23,7 @@ public class Main {
         comboFamiliar.incorporar(comboClasico);
         comboFamiliar.incorporar(postre);
 
-        System.out.println("== Combos ==");
+        System.out.println("-----Combos-----");
         System.out.println(comboClasico);
         System.out.println(comboFamiliar);
         System.out.println();
@@ -32,7 +32,7 @@ public class Main {
         Producto comboParaLlevar = new Packaging(comboEnPromo, "carton", 600, 5);
         Producto postreRegalo = new Packaging(new Descuento(postre, 200), "caja", 350, 25);
 
-        System.out.println("== Productos decorados ==");
+        System.out.println("-----Productos decorados-----");
         System.out.println(comboEnPromo);
         System.out.println(comboParaLlevar);
         System.out.println(postreRegalo);
