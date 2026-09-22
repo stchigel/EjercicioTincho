@@ -19,7 +19,7 @@ public class Descuento extends DecoradorProducto {
     }
 
     @Override
-    public String getDenominacion() {
-        return envuelto.getDenominacion() + " [-$" + montoDescuento + "]";
+    public String toString() {
+        return super.toString() + " [-$" + montoDescuento + "]";
     }
 }

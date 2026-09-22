@@ -18,6 +18,6 @@ public abstract class Producto {
 
     @Override
     public String toString() {
-        return getDenominacion() + " $" + calcularPrecio() + " stock: " + calcularStock();
+        return denominacion + " $" + calcularPrecio() + " stock: " + calcularStock();
     }
 }

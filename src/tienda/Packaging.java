@@ -28,7 +28,7 @@ public class Packaging extends DecoradorProducto {
     }
 
     @Override
-    public String getDenominacion() {
-        return envuelto.getDenominacion() + " + empaque " + material;
+    public String toString() {
+        return super.toString() + " + empaque " + material;
     }
 }
